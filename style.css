@@ -1,8 +1,31 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root{
+--header-font:"Playfair",serif;
+--body-font:"Merriweather",serif;
+}
+
+
+*{
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 a{
     text-decoration:none;
+}
+
+.honey{
+   background-image:url(../images/new.jpeg);
+    min-height :100vh;
+    background-size:16in;
+    background-position: center;
+    padding: 10px;
+    background-repeat: no-repeat;
+    }
+
+
+.title{
+    display: flex;
+    text-align: center;
 }
