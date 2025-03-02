@@ -3,6 +3,8 @@
 :root{
 --header-font:"Playfair",serif;
 --body-font:"Merriweather",serif;
+--text-color:#ffd700;
+
 }
 
 
@@ -13,19 +15,78 @@
 }
 a{
     text-decoration:none;
+    
 }
 
 .honey{
    background-image:url(../images/new.jpeg);
-    min-height :100vh;
-    background-size:16in;
+   min-height :10vh;
+    background-size:15in;
     background-position: center;
-    padding: 10px;
+    padding: 40px;
     background-repeat: no-repeat;
+
+   
     }
 
 
-.title{
+.navbar{
     display: flex;
-    text-align: center;
+    text-align:center;
+    justify-content: end;
+    justify-content: space-around;
+    font-family: var(--body-font);
+
+    font-size:x-large;
+    color: chartreuse;
+    font-weight: 700;
+    padding: 8px 15px;
+    letter-spacing: 1px;
+}
+.title{
+    font-family: var(--header-font);
+    font-size: 50px;
+    align-items:center;
+    justify-self:center;
+    color:yellow;
+}
+.page1{
+    align-self: center;
+
+    justify-self:center;    
+    color:#ffd700 ;
+    text-shadow: #ffd700;
+    font-size:xx-large;
+    font-weight: 100;
+    
+}
+.miss{
+    justify-self: center;
+    align-self: center;
+}
+.services{
+    justify-self: center;
+border-image-width: 10px;
+
+font-size:x-large;
+
+
+}
+.info{
+flex-direction: column;
+flex-wrap:wrap;
+font-family: 'Courier New', Courier, monospace;
+font-weight: 600;
+}
+.contact{
+    font-family: var(--header-font);
+    text-align:center;
+    padding: 20px;
+    
+}
+.yoo{
+    align-items: center;
+display: flex;    
+justify-content:space-around;
+font-family: var(--header-font);
 }
